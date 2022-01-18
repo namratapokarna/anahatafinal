@@ -1,0 +1,72 @@
+ h1,
+ p {
+     font-family: 'Raleway', sans-serif;
+     font-weight: 400;
+ }
+ 
+ h2,
+ h3 {
+     font-weight: bold;
+ }
+ 
+ hr {
+     border-color: #f2af00;
+     margin: 0;
+     opacity: 0.3;
+ }
+ 
+ img {
+     max-width: 100%;
+     height: auto;
+     transition: all 0.3s ease-in;
+ }
+ /* img:hover {
+     cursor: pointer;
+     opacity: 0.5;
+ } */
+ /* about section */
+ 
+ #about h2 {
+     border-right: 2px solid #f2af00;
+     display: inline-block;
+     padding: 10px 20px 10px 10px;
+ }
+ 
+ #about .col-md-12 {
+     text-align: center;
+ }
+ /* team section */
+ 
+ #team {
+     padding-top: 60px;
+     padding-bottom: 100px;
+ }
+ 
+ #team h2 {
+     border-left: 2px solid #f2af00;
+     display: inline-block;
+     padding: 10px 10px 10px 20px;
+ }
+ 
+ #team .col-md-12 {
+     text-align: center;
+     padding-bottom: 60px;
+ }
+ 
+ #team img {
+     padding: 15px;
+     object-fit: cover;
+ }
+ /* portfolio section */
+ 
+ #portfolio {
+     text-align: center;
+     padding-top: 80px;
+     padding-bottom: 60px;
+ }
+ 
+ #portfolio h2 {
+     border-right: 2px solid #f2af00;
+     display: inline-block;
+     padding: 10px 20px 10px 10px;
+ }

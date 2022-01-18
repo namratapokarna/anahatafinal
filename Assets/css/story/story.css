@@ -1,0 +1,91 @@
+* {
+    font-family: sans-serif;
+}
+
+.container1 {
+    background-color: rgb(206, 241, 221);
+    padding: 20px;
+    margin: 30px;
+}
+
+.para {
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.heading {
+    color: red;
+    font-size: 40px;
+    font-family: serif;
+    text-align: center;
+    font-weight: 800;
+}
+
+.container2 {
+    padding: 25px;
+    margin: 30px;
+}
+
+.container2 li {
+    text-align: justify;
+    font-size: 20px;
+    font-family: serif;
+    font-weight: 600;
+}
+
+.cards {
+    transition: all 0.2s ease;
+    cursor: pointer;
+    padding: 20px;
+    text-align: justify;
+    font-size: 16px;
+    font-family: serif;
+    font-weight: 500;
+    margin: 30px;
+}
+
+
+/* 
+.cards:hover {
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.1);
+} */
+
+.fa-certificate {
+    color: yellowgreen;
+}
+
+.fa-star {
+    color: rgb(15, 82, 1);
+}
+
+@media only screen and (max-width: 480px) {
+    .html,
+    body {
+        height: 100%;
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+        overflow-x: hidden;
+    }
+    .cards {
+        transition: all 0.2s ease;
+        cursor: pointer;
+        padding: 10px;
+        margin: 10px;
+        text-align: justify;
+        font-size: 20px;
+        font-family: serif;
+        font-weight: 400;
+    }
+    .img1 {
+        height: 350px;
+        width: 300px;
+        margin-bottom: -80px;
+    }
+    .img2 {
+        display: none;
+    }
+}

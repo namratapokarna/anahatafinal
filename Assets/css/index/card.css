@@ -1,0 +1,69 @@
+.cardsbox .cardholder .col .card {
+    position: relative;
+    z-index: 99999999;
+    width: 300px;
+    height: 420px;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: rgb(9, 9, 44);
+    padding: 24px;
+    overflow: hidden;
+    text-align: justify;
+    margin: 65px;
+}
+
+.cardsbox .cardholder .col .card::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: -5px;
+    width: 250px;
+    height: 320px;
+    /* background: linear-gradient(#00ccff, #d400d4); */
+    animation: animate 4s linear infinite;
+    z-index: -10;
+}
+
+.cardsbox .cardholder .col .card::after {
+    content: "";
+    position: absolute;
+    inset: 4px;
+    border-radius: inherit;
+    background: rgb(255, 255, 255);
+    z-index: -1;
+}
+
+.cardsbox .cardholder .col .card img {
+    display: block;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    width: 60px;
+    height: 60px;
+    align-items: center;
+}
+
+.cardsbox .cardholder .col .card h5 {
+    line-height: 25px;
+    font-size: 17px;
+    font-family: 'Arvo', serif;
+    /* color: white; */
+}
+
+
+/* .cardsbox .cardholder .col .card p {
+    color: rgb(245, 245, 245);
+} */
+
+.c2 {
+    color: rgb(4, 38, 83);
+    text-align: center;
+    font-weight: 600;
+}
+
+
+/* @keyframes animate {
+    0% {
+        transform: rotate(360deg);
+    }
+} */

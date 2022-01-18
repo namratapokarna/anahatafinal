@@ -1,0 +1,218 @@
+                * {
+                    font-family: sans-serif;
+                }
+                
+                .card {
+                    height: 400px;
+                    width: 350px;
+                    align-items: center;
+                    text-align: justify;
+                    margin-top: 10px;
+                    position: relative;
+                    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+                    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+                    box-shadow: 4 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+                    transition: .5s;
+                }
+                
+                .card:hover {
+                    transform: translateY(-5px) scale(1.005) translateZ(0);
+                    box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11), 0 24px 46px var(--box-shadow-color);
+                }
+                
+                .card:hover .overlay {
+                    transform: scale(4) translateZ(0);
+                }
+                
+                .card:hover .circle {
+                    border-color: var(--bg-color-light);
+                    background: var(--bg-color);
+                }
+                
+                .card:hover .circle:after {
+                    background: var(--bg-color-light);
+                }
+                
+                .card:hover p {
+                    color: var(--text-color-hover);
+                }
+                
+                .card2 {
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                    /* transition: 0.3s; */
+                    margin-top: 8px;
+                    color: rgb(3, 3, 46);
+                    padding: 20px;
+                    width: 100%;
+                    font-size: 15px;
+                    font-weight: 400;
+                }
+                
+                .card2:hover {
+                    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+                }
+                
+                .card1 {
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                    transition: 0.3s;
+                    margin-top: 30px;
+                    color: rgb(3, 3, 46);
+                    padding: 20px;
+                    width: 90%;
+                    font-size: 15px;
+                    font-weight: 400;
+                }
+                
+                .card1:hover {
+                    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+                }
+                /* .container {
+    padding: 2px 16px;
+} */
+                
+                @media only screen and (max-width: 480px) {
+                    html,
+                    body {
+                        height: 100%;
+                        width: 100%;
+                        margin: 0%;
+                        padding: 0%;
+                        overflow-x: hidden;
+                    }
+                    #pills {
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 10px;
+                        size-adjust: 10px;
+                    }
+                }
+                
+                .card {
+                    margin-left: 30px;
+                }
+                
+                @media (min-width: 1000px) and (max-width: 1680px) {
+                    .container1 {
+                        margin-top: 30px;
+                        margin-left: 50px;
+                        margin-right: 50px;
+                    }
+                    .html,
+                    body {
+                        height: 100%;
+                        width: 100%;
+                        margin: 0%;
+                        padding: 0%;
+                        overflow-x: hidden;
+                    }
+                }
+                
+                .card2-header {
+                    /* background-color: rgb(253, 250, 218); */
+                    font-weight: 600;
+                }
+                
+                .card2-header a {
+                    color: rgb(1, 11, 32);
+                }
+                
+                .card1-header {
+                    background-color: rgb(253, 250, 218);
+                    font-weight: 600;
+                }
+                
+                .card1-header a {
+                    color: rgb(1, 11, 32);
+                }
+                
+                .button4 {
+                    border-radius: 14px;
+                    background-color: #147a17;
+                    /* Green */
+                    border: none;
+                    color: white;
+                    padding: 10px 80px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 15px;
+                    margin: 4px 2px;
+                    cursor: pointer;
+                    margin-left: -10px;
+                }
+                
+                .price {
+                    background-color: rgba(211, 211, 211, 0.253);
+                    padding: 35px;
+                    border-radius: 14px;
+                    width: 300px;
+                    height: 250px;
+                    font-size: 18px;
+                    color: rgb(1, 18, 51);
+                    text-align: center;
+                    align-items: center;
+                    margin-right: 80px;
+                }
+                
+                .fa-check-circle {
+                    color: yellowgreen;
+                }
+                
+                @media only screen and (max-width: 480px) {
+                    .html,
+                    body {
+                        height: 100%;
+                        width: 100%;
+                        margin: 0%;
+                        padding: 0%;
+                        overflow-x: hidden;
+                    }
+                    .img1 {
+                        height: 200px;
+                        width: 400px;
+                    }
+                    .card3 {
+                        align-items: flex-start;
+                    }
+                }
+                
+                .card3 {
+                    align-items: center;
+                    text-align: justify;
+                    margin: 30px 30px 30px 20px;
+                    position: relative;
+                    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+                    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+                    box-shadow: 4 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+                    transition: .5s;
+                    height: 250px;
+                    width: 350px;
+                }
+                
+                .card3 .img4 {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                }
+                
+                .card3:hover {
+                    transform: translateY(-5px) scale(1.005) translateZ(0);
+                    box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11), 0 24px 46px var(--box-shadow-color);
+                }
+                
+                .card3:hover .overlay {
+                    transform: scale(4) translateZ(0);
+                }
+                
+                .card3:hover .circle {
+                    border-color: var(--bg-color-light);
+                    background: var(--bg-color);
+                }
+                
+                .card3:hover .circle:after {
+                    background: var(--bg-color-light);
+                }
+                
+                .card3:hover p {
+                    color: var(--text-color-hover);
+                }
